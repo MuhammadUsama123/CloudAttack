@@ -7,7 +7,7 @@
 import h5py
 
 # Path to your H5 file
-file_path = 'C:/Users/muham/OneDrive/Desktop/Cloud_Attack/cloud_attack_data.h5'
+file_path = 'cloud_attack_data.h5'
 
 # Open the file in read-only mode
 with h5py.File(file_path, 'r') as file:
